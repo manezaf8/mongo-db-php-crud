@@ -6,9 +6,6 @@
           'surname' => $_POST['surname'],
           'idno' => $_POST['idno'],
           'dob' => $_POST['dob'],
-          //$dob = date("d-m-Y", strtotime($_POST['dob'])),
-
-
       ]);
       $_SESSION['success'] = "User added Successfully!!";
       header("Location: index.php");
@@ -63,7 +60,6 @@
             var idno = document.getElementById("mxlenght").value;
             if(idno.length < 13 && idno == idno) {
                 alert("Your ID number is incorrect, make sure it is 13 numbers and try again");
-                //e.preventDefault();
                 return false;
     
             } else {
@@ -86,8 +82,6 @@
                      return true;
                  }
                });
-
-                //if the min len is less than 13 return false.. 
             });
 
       </script>
