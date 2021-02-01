@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6017fcacb9110000d9005e4c"
+  },
+  "name": "Nelson",
+  "surname": "Mandela",
+  "idno": "1807180587084",
+  "dob": "1918-07-18"
+},{
+  "_id": {
+    "$oid": "6017fcdfb9110000d9005e4d"
+  },
+  "name": "John",
+  "surname": "Doe",
+  "idno": "8745214756587",
+  "dob": "1987-02-02"
+},{
+  "_id": {
+    "$oid": "6017fd11b9110000d9005e4e"
+  },
+  "name": "Jacob",
+  "surname": "Zuma",
+  "idno": "4002024756587",
+  "dob": "1940-02-02"
+}]
